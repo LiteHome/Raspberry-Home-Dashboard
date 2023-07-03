@@ -1,0 +1,1 @@
+select count(orderid) as value,expected_delivery_date_month::int from refund_data group by expected_delivery_date_month order by expected_delivery_date_month

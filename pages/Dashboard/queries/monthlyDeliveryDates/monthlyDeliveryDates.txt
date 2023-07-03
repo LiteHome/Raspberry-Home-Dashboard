@@ -1,0 +1,1 @@
+select count(*) as value,delivery_date_month as label from order_table group by delivery_date_month order by label

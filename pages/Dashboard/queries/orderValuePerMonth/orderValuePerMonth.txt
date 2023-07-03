@@ -1,0 +1,1 @@
+select sum(order_value::int) as value, delivery_date_month::int as label from order_table group by delivery_date_month order by label

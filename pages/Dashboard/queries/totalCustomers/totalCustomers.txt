@@ -1,0 +1,1 @@
+SELECT COUNT ( DISTINCT cid ) FROM customer_details;

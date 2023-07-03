@@ -1,0 +1,1 @@
+select item_name, count(item_name) from order_details group by item_name order by count desc

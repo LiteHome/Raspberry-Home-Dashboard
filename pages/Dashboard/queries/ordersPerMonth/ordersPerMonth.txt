@@ -1,0 +1,1 @@
+select count(order_id) as value,expected_delivery_date_month::int from order_table group by expected_delivery_date_month order by expected_delivery_date_month
