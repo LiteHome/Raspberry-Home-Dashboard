@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "setDevicesName",
-    "fullyQualifiedName": "Http_Query.setDevicesName",
+    "name": "setDeviceName",
+    "fullyQualifiedName": "Http_Query.setDeviceName",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -45,7 +45,7 @@
     "userPermissions": [],
     "createdAt": "2023-07-14T15:50:13Z"
   },
-  "id": "DeviceManage_Http_Query.setDevicesName",
+  "id": "DeviceManage_Http_Query.setDeviceName",
   "deleted": false,
   "gitSyncId": "64a2d57146577a17939f8ee7_64b16eb5a9dd783d1b861391"
 }
