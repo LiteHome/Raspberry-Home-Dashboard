@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Http_Query",
+    "pageId": "DeviceManage",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "DeviceManage_Http_Query",
+  "deleted": false,
+  "gitSyncId": "64a2d57146577a17939f8ee7_64b01dd23c79682d2f1a0267"
+}

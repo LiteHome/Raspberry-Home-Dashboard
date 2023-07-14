@@ -1,1 +1,0 @@
-select sum(amount::float) as value ,expected_delivery_date_month::int as label from refund_data group by label order by label

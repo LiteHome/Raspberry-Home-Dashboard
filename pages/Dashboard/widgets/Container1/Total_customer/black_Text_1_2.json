@@ -17,13 +17,10 @@
     "fontFamily": "Inter",
     "dynamicTriggerPathList": [],
     "leftColumn": 2,
-    "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "text"}
-    ],
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "shouldTruncate": false,
     "truncateButtonColor": "#FFC13D",
-    "text": "{{totalCustomers.data[0].count}}",
+    "text": "3",
     "key": "j0z4cpigeh",
     "isDeprecated": false,
     "rightColumn": 38,

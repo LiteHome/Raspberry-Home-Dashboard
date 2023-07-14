@@ -1,3 +1,0 @@
-SELECT payment_method as label, COUNT(*) as value
-FROM order_table 
-GROUP BY payment_method;

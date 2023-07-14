@@ -1,3 +1,0 @@
-SELECT refundMethod as label, COUNT(*) as value
-FROM refund_data 
-GROUP BY refundMethod;

@@ -1,1 +1,0 @@
-SELECT COUNT ( DISTINCT order_id ) FROM order_table;
