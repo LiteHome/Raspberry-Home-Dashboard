@@ -40,11 +40,10 @@
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
-        {"key": "customFusionChartConfig"},
         {"key": "accentColor"},
         {"key": "fontFamily"}
     ],
-    "customFusionChartConfig": "{{Query.getValueComparison()}}",
+    "customFusionChartConfig": "",
     "key": "c7tggln2z7",
     "isDeprecated": false,
     "rightColumn": 63,

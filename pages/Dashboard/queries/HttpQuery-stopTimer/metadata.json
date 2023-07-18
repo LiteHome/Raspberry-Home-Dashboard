@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "setDeviceName",
-    "fullyQualifiedName": "Http_Query.setDeviceName",
+    "name": "stopTimer",
+    "fullyQualifiedName": "HttpQuery.stopTimer",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,21 +13,14 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "DeviceManage",
-    "collectionId": "DeviceManage_Http_Query",
+    "pageId": "Dashboard",
+    "collectionId": "Dashboard_HttpQuery",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
-      "jsArguments": [
-        {
-          "name": "deviceName"
-        },
-        {
-          "name": "deviceUuid"
-        }
-      ],
+      "jsArguments": [],
       "isAsync": true
     },
     "executeOnLoad": false,
@@ -44,7 +37,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "DeviceManage_Http_Query.setDeviceName",
+  "id": "Dashboard_HttpQuery.stopTimer",
   "deleted": false,
-  "gitSyncId": "64a2d57146577a17939f8ee7_64b2ca8f9ddc3a1f3ca0c860"
+  "gitSyncId": "64a2d57146577a17939f8ee7_64b2e1cf9ddc3a1f3ca0c8be"
 }

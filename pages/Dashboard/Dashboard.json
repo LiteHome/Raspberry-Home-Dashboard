@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1120,
+          "bottomRow": 1200,
           "containerStyle": "none",
           "snapRows": 73,
           "parentRowSpace": 1,
@@ -25,7 +25,21 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Dashboard_HttpQuery.startTimer",
+              "name": "HttpQuery.startTimer",
+              "collectionId": "Dashboard_HttpQuery",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "() => {\n  setInterval(HttpQuery.httpQuery, HttpQuery.interval * HttpQuery.sec, \"HttpQuery\");\n  showAlert(\"开始拉取信息, 目前间隔是 \" + HttpQuery.interval + \"s\");\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Dashboard",

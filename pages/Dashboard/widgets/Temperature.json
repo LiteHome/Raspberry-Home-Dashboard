@@ -40,11 +40,10 @@
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
-        {"key": "customFusionChartConfig"},
         {"key": "accentColor"},
         {"key": "fontFamily"}
     ],
-    "customFusionChartConfig": "{{Query.getSatisfaction()}}",
+    "customFusionChartConfig": "",
     "key": "ht2kw613t1",
     "isDeprecated": false,
     "rightColumn": 20,

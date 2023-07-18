@@ -8,12 +8,12 @@
     "archivedActions": [],
     "variables": [
       {
-        "name": "myVar1",
-        "value": "[]"
+        "name": "sec",
+        "value": "1000"
       },
       {
-        "name": "myVar2",
-        "value": "{}"
+        "name": "interval",
+        "value": "15"
       }
     ],
     "userPermissions": []
