@@ -1,8 +1,7 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "widgetName": "Temperature",
+    "widgetName": "humidity_rail",
     "allowScroll": false,
-    "dynamicPropertyPathList": [],
     "displayName": "Chart",
     "iconSVG": "/static/media/icon.6adbe31ed817fc4bfd66f9f0a6fc105c.svg",
     "searchTags": [
@@ -36,7 +35,7 @@
     "parentColumnSpace": 17.9375,
     "dynamicTriggerPathList": [],
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-    "leftColumn": 1,
+    "leftColumn": 22,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
@@ -46,8 +45,8 @@
     "customFusionChartConfig": "",
     "key": "ht2kw613t1",
     "isDeprecated": false,
-    "rightColumn": 20,
-    "widgetId": "g4a9czm27n",
+    "rightColumn": 41,
+    "widgetId": "zwhtpnw760",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisible": true,
     "version": 1,

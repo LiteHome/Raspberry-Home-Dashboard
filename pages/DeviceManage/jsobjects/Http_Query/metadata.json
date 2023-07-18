@@ -6,7 +6,20 @@
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "variables": [],
+    "variables": [
+      {
+        "name": "sec",
+        "value": "60"
+      },
+      {
+        "name": "unit",
+        "value": "1000"
+      },
+      {
+        "name": "timerName",
+        "value": "\"httpQuery\""
+      }
+    ],
     "userPermissions": []
   },
   "id": "DeviceManage_Http_Query",

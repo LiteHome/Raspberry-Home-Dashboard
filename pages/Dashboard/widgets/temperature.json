@@ -1,6 +1,6 @@
 {
     "boxShadow": "none",
-    "widgetName": "TitleCopyCopy1Copy1",
+    "widgetName": "temperature",
     "dynamicPropertyPathList": [{"key": "fontSize"}],
     "displayName": "Text",
     "iconSVG": "/static/media/icon.97c59b52.svg",

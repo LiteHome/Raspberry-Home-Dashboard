@@ -28,6 +28,17 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "DeviceManage_Http_Query.startTimer",
+              "name": "Http_Query.startTimer",
+              "collectionId": "DeviceManage_Http_Query",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "() => {\n  Http_Query.stopTimer();\n  setInterval(Http_Query.refreshTable, Http_Query.sec * Http_Query.unit, Http_Query.timerName);\n  showAlert(\"开始拉取信息, 目前间隔是 \" + Http_Query.sec + \"s\");\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "DeviceManage_get_all_devices",
               "name": "get_all_devices",
               "confirmBeforeExecute": false,

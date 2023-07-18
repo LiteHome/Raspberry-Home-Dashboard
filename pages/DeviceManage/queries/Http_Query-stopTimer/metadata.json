@@ -3,7 +3,7 @@
   "pluginId": "js-plugin",
   "unpublishedAction": {
     "name": "stopTimer",
-    "fullyQualifiedName": "HttpQuery.stopTimer",
+    "fullyQualifiedName": "Http_Query.stopTimer",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Dashboard",
-    "collectionId": "Dashboard_HttpQuery",
+    "pageId": "DeviceManage",
+    "collectionId": "DeviceManage_Http_Query",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -37,7 +37,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Dashboard_HttpQuery.stopTimer",
+  "id": "DeviceManage_Http_Query.stopTimer",
   "deleted": false,
-  "gitSyncId": "64a2d57146577a17939f8ee7_64b2e1cf9ddc3a1f3ca0c8be"
+  "gitSyncId": "64a2d57146577a17939f8ee7_64b6bc524f609e3b56e43b70"
 }

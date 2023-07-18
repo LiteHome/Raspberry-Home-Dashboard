@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "changeTimer",
-    "fullyQualifiedName": "HttpQuery.changeTimer",
+    "name": "startTimer",
+    "fullyQualifiedName": "Http_Query.startTimer",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Dashboard",
-    "collectionId": "Dashboard_HttpQuery",
+    "pageId": "DeviceManage",
+    "collectionId": "DeviceManage_Http_Query",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -23,7 +23,7 @@
       "jsArguments": [],
       "isAsync": true
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -32,13 +32,12 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "userSetOnLoad": false,
+    "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-07-15T18:16:34Z"
+    "userPermissions": []
   },
-  "id": "Dashboard_HttpQuery.changeTimer",
+  "id": "DeviceManage_Http_Query.startTimer",
   "deleted": false,
-  "gitSyncId": "64a2d57146577a17939f8ee7_64b2e28246a2df37803e6b36"
+  "gitSyncId": "64a2d57146577a17939f8ee7_64b6b79cbc446d30675d8a49"
 }
