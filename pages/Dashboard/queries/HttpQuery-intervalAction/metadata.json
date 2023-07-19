@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "startTimer",
-    "fullyQualifiedName": "HttpQuery.startTimer",
+    "name": "intervalAction",
+    "fullyQualifiedName": "HttpQuery.intervalAction",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -36,9 +36,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-07-15T18:48:46Z"
+    "createdAt": "2023-07-16T15:16:06Z"
   },
-  "id": "Dashboard_HttpQuery.startTimer",
+  "id": "Dashboard_HttpQuery.intervalAction",
   "deleted": false,
-  "gitSyncId": "64a2d57146577a17939f8ee7_64b2ea0ea9dd783d1b861fba"
+  "gitSyncId": "64a2d57146577a17939f8ee7_64b409b6ad952b584565c0ae"
 }

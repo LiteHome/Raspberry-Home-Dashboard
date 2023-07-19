@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1120,
+          "bottomRow": 1380,
           "containerStyle": "none",
           "snapRows": 73,
           "parentRowSpace": 1,
@@ -28,13 +28,34 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Dashboard_HttpQuery.intervalAction",
+              "name": "HttpQuery.intervalAction",
+              "collectionId": "Dashboard_HttpQuery",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "() => {\n  HttpQuery.refreshText();\n  get_all_online_device.run();\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Dashboard_get_all_online_device",
+              "name": "get_all_online_device",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "Dashboard_HttpQuery.startTimer",
               "name": "HttpQuery.startTimer",
               "collectionId": "Dashboard_HttpQuery",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
-                "() => {\n  setInterval(HttpQuery.httpQuery, HttpQuery.interval * HttpQuery.sec, \"HttpQuery\");\n  showAlert(\"开始拉取信息, 目前间隔是 \" + HttpQuery.interval + \"s\");\n}"
+                "() => {\n  setInterval(HttpQuery.intervalAction, HttpQuery.interval * HttpQuery.sec, HttpQuery.timerName);\n  showAlert(\"开始拉取信息, 目前间隔是 \" + HttpQuery.interval + \"s\");\n}"
               ],
               "timeoutInMillisecond": 10000
             }

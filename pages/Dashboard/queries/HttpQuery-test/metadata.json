@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "startTimer",
-    "fullyQualifiedName": "HttpQuery.startTimer",
+    "name": "test",
+    "fullyQualifiedName": "HttpQuery.test",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -23,7 +23,7 @@
       "jsArguments": [],
       "isAsync": true
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -32,13 +32,12 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "userSetOnLoad": true,
+    "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-07-15T18:48:46Z"
+    "userPermissions": []
   },
-  "id": "Dashboard_HttpQuery.startTimer",
+  "id": "Dashboard_HttpQuery.test",
   "deleted": false,
-  "gitSyncId": "64a2d57146577a17939f8ee7_64b2ea0ea9dd783d1b861fba"
+  "gitSyncId": "64a2d57146577a17939f8ee7_64b7fb1bae75583523819dac"
 }

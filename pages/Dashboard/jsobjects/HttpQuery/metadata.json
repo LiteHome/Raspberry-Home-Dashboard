@@ -13,7 +13,15 @@
       },
       {
         "name": "interval",
-        "value": "15"
+        "value": "60"
+      },
+      {
+        "name": "timerName",
+        "value": "\"timer\""
+      },
+      {
+        "name": "sensor1Id",
+        "value": "-1"
       }
     ],
     "userPermissions": []

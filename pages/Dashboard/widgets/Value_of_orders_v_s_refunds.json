@@ -10,8 +10,8 @@
         "visuals",
         "visualisations"
     ],
-    "topRow": 85,
-    "bottomRow": 112,
+    "topRow": 103,
+    "bottomRow": 130,
     "parentRowSpace": 10,
     "type": "CHART_WIDGET",
     "hideCard": false,
@@ -36,7 +36,7 @@
     "parentColumnSpace": 17.9375,
     "dynamicTriggerPathList": [],
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-    "leftColumn": 1,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
@@ -46,7 +46,7 @@
     "customFusionChartConfig": "",
     "key": "c7tggln2z7",
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 62,
     "widgetId": "gien0zm87f",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisible": true,
@@ -56,10 +56,10 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "yAxisName": "Revenue($)",
-    "originalTopRow": 115,
+    "originalTopRow": 103,
     "chartName": "Value of orders v/s refunds",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "xAxisName": "Product Line",
-    "originalBottomRow": 142,
+    "originalBottomRow": 130,
     "chartType": "CUSTOM_FUSION_CHART"
 }
