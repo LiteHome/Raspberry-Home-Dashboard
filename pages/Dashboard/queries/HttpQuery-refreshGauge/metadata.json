@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "test",
-    "fullyQualifiedName": "HttpQuery.test",
+    "name": "refreshGauge",
+    "fullyQualifiedName": "HttpQuery.refreshGauge",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -22,7 +22,7 @@
       "selfReferencingDataPaths": [],
       "jsArguments": [
         {
-          "name": "data"
+          "name": "number"
         }
       ],
       "isAsync": false
@@ -41,7 +41,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Dashboard_HttpQuery.test",
+  "id": "Dashboard_HttpQuery.refreshGauge",
   "deleted": false,
-  "gitSyncId": "64a2d57146577a17939f8ee7_64b7fb1bae75583523819dac"
+  "gitSyncId": "64a2d57146577a17939f8ee7_64b94862579b5e5e7cc4bdec"
 }

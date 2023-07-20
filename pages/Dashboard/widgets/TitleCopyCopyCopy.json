@@ -4,8 +4,8 @@
     "dynamicPropertyPathList": [{"key": "fontSize"}],
     "displayName": "Text",
     "iconSVG": "/static/media/icon.97c59b52.svg",
-    "topRow": 99,
-    "bottomRow": 103,
+    "topRow": 100,
+    "bottomRow": 104,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -31,10 +31,10 @@
     "parentId": "0",
     "renderMode": "CANVAS",
     "isLoading": false,
-    "originalTopRow": 99,
+    "originalTopRow": 100,
     "borderRadius": "0px",
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 103,
+    "originalBottomRow": 104,
     "fontSize": "1.4rem",
     "minDynamicHeight": 4
 }

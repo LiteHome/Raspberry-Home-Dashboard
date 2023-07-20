@@ -10,8 +10,8 @@
         "visuals",
         "visualisations"
     ],
-    "topRow": 103,
-    "bottomRow": 130,
+    "topRow": 104,
+    "bottomRow": 131,
     "parentRowSpace": 10,
     "type": "CHART_WIDGET",
     "hideCard": false,
@@ -56,10 +56,10 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "yAxisName": "Revenue($)",
-    "originalTopRow": 103,
+    "originalTopRow": 104,
     "chartName": "Value of orders v/s refunds",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "xAxisName": "Product Line",
-    "originalBottomRow": 130,
+    "originalBottomRow": 131,
     "chartType": "CUSTOM_FUSION_CHART"
 }

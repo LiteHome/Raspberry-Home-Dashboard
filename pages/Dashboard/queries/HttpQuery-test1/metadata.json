@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "test",
-    "fullyQualifiedName": "HttpQuery.test",
+    "name": "test1",
+    "fullyQualifiedName": "HttpQuery.test1",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -20,11 +20,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
-      "jsArguments": [
-        {
-          "name": "data"
-        }
-      ],
+      "jsArguments": [],
       "isAsync": false
     },
     "executeOnLoad": false,
@@ -41,7 +37,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Dashboard_HttpQuery.test",
+  "id": "Dashboard_HttpQuery.test1",
   "deleted": false,
-  "gitSyncId": "64a2d57146577a17939f8ee7_64b7fb1bae75583523819dac"
+  "gitSyncId": "64a2d57146577a17939f8ee7_64b95bde716c7259638dbeda"
 }

@@ -22,6 +22,14 @@
       {
         "name": "sensor1Id",
         "value": "-1"
+      },
+      {
+        "name": "temperature",
+        "value": "\"0\""
+      },
+      {
+        "name": "humidity",
+        "value": "\"0\""
       }
     ],
     "userPermissions": []

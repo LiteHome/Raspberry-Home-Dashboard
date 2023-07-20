@@ -3,6 +3,9 @@ export default {
 	interval:60,
 	timerName:"timer",
 	sensor1Id:-1,
+	
+	temperature:"0",
+	humidity:"0",
 
 	startTimer: () => {
 		setInterval(this.intervalAction, this.interval * this.sec, this.timerName)
@@ -11,7 +14,7 @@ export default {
 	intervalAction: () => {
 		this.refreshText()
 		get_all_online_device.run()
-		
+
 	},
 	refreshText: () => {
 		// 展示控制板, 传感器, 网关的数量
@@ -31,8 +34,59 @@ export default {
 			}
 		})
 	},
+	refreshTemperatureGauge: () => {
+		
+	},
+	refreshGauge: (number) => {
+
+
+		return 
+	},
 	// todo: 选择传感器后更新数据
-	test: () => {
-		return get_latest_data_by_id.run({"id":50})
+	test: (data) => {
+		return {
+			"type": "thermometer",
+			"dataSource": {
+				"chart": {
+					"theme": "fusion",
+					"lowerLimit": "0",
+					"upperLimit": "40",
+					"numberSuffix": "°C",
+					"decimals": "1",
+					"showValue": "1",
+					
+					// hover
+					"showhovereffect": "0",
+					
+          //Tick Marks auto adjustment 
+          "adjustTM": "0",
+
+          //Configuring Tick Positions
+          "ticksOnRight": "0",
+          "tickMarkDistance": "5",
+          "tickValueDistance": "2",
+
+					// Major Tick Marks
+          "majorTMNumber": "5",
+          "majorTMHeight": "12",
+
+          //Minor Tick Marks
+          "minorTMNumber": "4",
+          "minorTMHeight": "7",
+
+          //Tick value step          
+          "tickValueStep": "1",
+
+					//Customizing gauge fill
+					"gaugeFillColor": "#008ee4",
+					"gaugeFillAlpha": "70",
+					
+				},
+				"value":this.temperature
+			}
+		}
+	},
+	test1: () => {
+		this.temperature = "9"
 	}
 }
