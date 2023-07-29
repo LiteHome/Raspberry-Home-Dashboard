@@ -39,8 +39,8 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Dashboard_get_all_devices",
-              "name": "get_all_devices",
+              "id": "Dashboard_get_all_online_device",
+              "name": "get_all_online_device",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],

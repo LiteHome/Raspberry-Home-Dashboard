@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "getAllDevices",
-    "fullyQualifiedName": "Http_Query.getAllDevices",
+    "name": "getAllOnlineDevices",
+    "fullyQualifiedName": "Http_Query.getAllOnlineDevices",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -39,7 +39,7 @@
     "userPermissions": [],
     "createdAt": "2023-07-29T16:38:37Z"
   },
-  "id": "Dashboard_Http_Query.getAllDevices",
+  "id": "Dashboard_Http_Query.getAllOnlineDevices",
   "deleted": false,
   "gitSyncId": "64a2d57146577a17939f8ee7_64c5408defcfc27db90a9803"
 }

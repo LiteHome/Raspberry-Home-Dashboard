@@ -330,7 +330,7 @@
     "textSize": "0.875rem",
     "widgetId": "170r138gbx",
     "minWidth": 450,
-    "tableData": "{{Http_Query.getAllDevices()}}",
+    "tableData": "{{Http_Query.getAllOnlineDevices()}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "0",

@@ -3,8 +3,8 @@ export default {
 	unit:1000,
 	timerName: "httpQuery",
 
-	getAllDevices: () => {
-		return get_all_devices.data.map((row) => {
+	getAllOnlineDevices: () => {
+		return get_all_online_device.data.map((row) => {
 			return {
 				"设备 Tag":row.device_tag, 
 				"设备信息":row.device_information, 
