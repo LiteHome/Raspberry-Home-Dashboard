@@ -3,10 +3,6 @@
     {
       "id": "Dashboard",
       "isDefault": true
-    },
-    {
-      "id": "DeviceManage",
-      "isDefault": false
     }
   ],
   "viewMode": false,

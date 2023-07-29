@@ -1,0 +1,28 @@
+{
+  "unpublishedCollection": {
+    "name": "Http_Query",
+    "pageId": "Dashboard",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "sec",
+        "value": "60"
+      },
+      {
+        "name": "unit",
+        "value": "1000"
+      },
+      {
+        "name": "timerName",
+        "value": "\"httpQuery\""
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Dashboard_Http_Query",
+  "deleted": false,
+  "gitSyncId": "64a2d57146577a17939f8ee7_64c5408defcfc27db90a9806"
+}

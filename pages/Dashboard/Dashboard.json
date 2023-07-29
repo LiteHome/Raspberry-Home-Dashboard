@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1920,
+          "bottomRow": 1570,
           "containerStyle": "none",
           "snapRows": 73,
           "parentRowSpace": 1,
@@ -28,35 +28,22 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Dashboard_HttpQuery.intervalAction",
-              "name": "HttpQuery.intervalAction",
-              "collectionId": "Dashboard_HttpQuery",
+              "id": "Dashboard_Http_Query.startTimer",
+              "name": "Http_Query.startTimer",
+              "collectionId": "Dashboard_Http_Query",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
-                "() => {\n  HttpQuery.refreshText();\n  get_all_online_device.run();\n}"
+                "() => {\n  Http_Query.stopTimer();\n  setInterval(Http_Query.intervalAction, Http_Query.sec * Http_Query.unit, Http_Query.timerName);\n  showAlert(\"开始拉取信息, 目前间隔是 \" + Http_Query.sec + \"s\");\n}"
               ],
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Dashboard_get_all_online_device",
-              "name": "get_all_online_device",
+              "id": "Dashboard_get_all_devices",
+              "name": "get_all_devices",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Dashboard_HttpQuery.startTimer",
-              "name": "HttpQuery.startTimer",
-              "collectionId": "Dashboard_HttpQuery",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "() => {\n  setInterval(HttpQuery.intervalAction, HttpQuery.interval * HttpQuery.sec, HttpQuery.timerName);\n  showAlert(\"开始拉取信息, 目前间隔是 \" + HttpQuery.interval + \"s\");\n}"
-              ],
               "timeoutInMillisecond": 10000
             }
           ]
